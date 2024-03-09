@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.flashcard {
+  width: 50em;
+  height: 20em;
+}
+
+.Biology {
+  background-color: rgba(0, 255, 0, 0.4);
+}
+
+.Chemistry {
+  background-color: rgba(0, 0, 255, 0.4);
+}
+
+.Physics {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+.Earth{
+  background-color: rgba(255, 166, 0, 0.4);
+}
+
+h4 {
+  margin: 0;
+}
