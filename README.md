@@ -1,26 +1,26 @@
-# Web Development Project 2 - *Science Study Guide*
+# Web Development Project 3 - *Science Study Guide*
 
 Submitted by: **Fengsheng Chen**
 
 This web app: **Flashcard study guide for various science subjects**
 
-Time spent: **4** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [X] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [X] **A list of card pairs is created**
-- [X] **Clicking on the card shows the corresponding component of the information pair**
-- [X] **Clicking the next button displays a random new card**
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [X] Cards have different visual styles such as color based on their category
-  - [ ] *visual style implemented* Different Background color for each subject
+- [x] A shuffle button is used to randomize the order of the cards
+- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [x] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
 The following **additional** features are implemented:
 
@@ -28,12 +28,12 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnB2YzNxdzlraXE1bTIwM3QzaHd1MDgya3NscXVwZjB3NzJwaTdldCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/svXpm4RMqWqsCFFbag/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzZkY25jcjdwZXA0cGgzcTI2ZTc2aWp4OWJ2dGlkNTVnaDQyaDB1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8lE2025tuTANsQToDy/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LICEcap  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
